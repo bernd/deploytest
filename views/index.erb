@@ -1,0 +1,7 @@
+<h1>Recorded Events</h1>
+
+<%- @db.keys.sort.reverse.each do |id| -%>
+  <h2><%= Time.at(id).iso8601 %></h2>
+  <pre><%= JSON.pretty_generate(@db[id]) %></pre>
+  <hr/>
+<%- end -%>
