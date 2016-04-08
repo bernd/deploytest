@@ -1,7 +1,7 @@
 deploytest
 ==========
 
-yo
+yolo
 
 test-2
 2
