@@ -1,7 +1,6 @@
 deploytest
 ==========
 
-yolo
+start new
 
-test-2
-2
+Test another.
